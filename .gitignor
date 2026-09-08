@@ -1,0 +1,6 @@
+venv
+py cache/
+*.pyc
+data/data
+models/
+.ipynb_checpoints/
