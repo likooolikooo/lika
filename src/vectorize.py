@@ -15,7 +15,7 @@ def get_prepared_data():
     X_tensor = torch.tensor(X_numpy, dtype=torch.float32)
     y_tensor = torch.tensor(y_numpy, dtype=torch.long)
 
-    print("Обнаружено классов(тем): {len(label_encoder.classes_)}")
+    print(f"Обнаружено классов(тем): {len(label_encoder.classes_)}")
 
     return X_tensor, y_tensor
 
